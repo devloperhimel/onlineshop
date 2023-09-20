@@ -1,1 +1,152 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main_header{
+width: 100%;
+height: 65px;
+overflow: hidden;
+background: chocolate;
+box-shadow: 20px 9px 16px 2px gray;
+
+}
+
+.nav_bar{
+    width: 1280Px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    margin: auto;
+    justify-content: space-between;
+    border: 4px solid chocolate;
+}
+.left img{
+    width: 80px;
+    height:auto;
+    margin-left: .5cm;
+    margin-top: 0.1cm;
+}
+.right_item {
+    border: 2px solid chocolate;
+    font-size: 1rem;
+    font-family: 'Courier New', Courier, monospace;
+    font: bold;
+
+}
+
+.right_item ul{
+    gap: 1.5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+
+}
+    .right_item >ul >li{
+    list-style: none;
+    font-size: 600;
+}
+.right_button {
+    border: none;
+    background: rgb(71, 240, 141);
+    font-size: 1rem;
+    padding: 10px 10px 11px 19px;
+    border-radius: 30px;
+    margin-right: 1.5cm;
+    cursor: pointer;
+    font-size: 600;
+}
+.item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: .5rem;
+    
+}
+#hero_main{
+    background: url(./assets/Screenshot\ 2023-09-19\ 174839.png);
+    width: 100%;
+    height: 110vh;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top:.1in;
+    
+}
+.hero_box{
+    text-align: center;
+    background: transparent;
+    width: 580px;
+    height: auto;
+    padding: 1.rem;
+    margin-bottom: 2in;
+
+}
+
+.hero_box h1 {
+    font-size: 3rem;
+    border-style:ridge;
+    border-color: rgb(6, 219, 219);
+    border-width: 2px;
+    color: rgb(53, 0, 245);
+}
+.hero_box >p{
+    font-size: 1rem;
+    color: rgb(31, 4, 232);
+    padding: 1rem;
+    font-weight: bold;
+
+}
+.hero_button{
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:1rem;
+    margin-left: .5in;
+
+    
+}
+.left_button{
+    border: none;
+    background: cyan;
+    color: black;
+    padding: 8px 20px;
+    border-radius: 30px;
+    font-size: 1.3rem;
+    cursor: pointer;
+    transition: .5ms;
+
+}
+.right_button{
+    border: none;
+    color: black;
+    padding: 8px 20px;
+    border-radius: 30px;
+    font-size: 1.3rem;
+    cursor: pointer;
+    transition: .5ms;
+}
+.left_button:hover{
+    background: transparent;
+    border: 2px solid bisque;
+    
+}
+.right_button:hover{
+    background: transparent;
+    border: 2px solid bisque;
+}
+
+
+
+
+
+
+
+
 
